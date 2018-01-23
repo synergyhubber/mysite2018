@@ -1,0 +1,89 @@
+container{
+    width: 80%;
+    margin: 120px auto;
+}
+.div1 {
+    float:left;
+    width:98%;
+    height: 100px;
+    outline: 1px solid red;
+}
+.div2 {
+    float:left;
+    width:98%;
+    height: 200px;
+    outline: 1px solid olive;    
+}
+.div3 {
+    float:left;
+    width:49%;
+    height: 150px;
+    outline: 1px solid fuchsia;
+}
+.div4 {
+    float:right;
+    width:49%0;
+    height: 150px;
+    outline: 1px solid fuchsia;    
+}
+.div5 {
+    float:right;
+    width:49%;
+    height: 100px;
+    outline: 1px solid fuchsia;    
+}
+.div6 {
+    float:right;
+    width:98%;
+    height: 100px;
+    outline: 1px solid fuchsia;  
+/*sample02.html*/
+
+header {
+    padding: 0px;
+    text-align: centre;
+    background-color: lightblue;
+}
+
+nav{
+    text-align: centre;
+}
+ul li {
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+article {
+    padding: 5px;
+    border:dotted 3px #ff0066;
+    margin-top: 30px;
+
+}
+
+aside{
+    padding: 5px;
+    border:double 5px #b200ff;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+}
+
+section{
+    padding: 5px;
+    margin-top: 50px;
+    border: dashed 5px #0022ff;
+}
+
+footer{
+    padding: 5px;
+    text-align: centre;
+    font-weight: bold;
+
+}
+
+/*sample03.html*/

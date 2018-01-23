@@ -1,0 +1,47 @@
+header{
+    text-align:centre;
+}
+
+nav{
+    width:80%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    border:1px solid #cccccc;
+    position: absoulte;
+
+}
+
+nav ul{
+    list-style-image:none;
+    list-style-postion: outside;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+nav ul li{
+    float:left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+leftsection {
+    width: 70%;
+    float: left;
+
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+footer{
+    margin-top: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+
+}
