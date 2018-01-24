@@ -1,0 +1,221 @@
+<!doctype.html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="description" content="Bootstrap walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,bootstrap">
+    <meta name="author" content="Gareth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        My first Bootstrap Page
+    </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- fontaweson.io -->
+    <script src="https://use.fontawesome.com/d300e30ecc.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip1"]').tooltip();
+ 
+            });
+            </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is some text.</p>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="naavbar-brand">COMWorks</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type "text" placeholder="search" class="from-control">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div style="padding: 50px 50px 50px 50px; float:left,">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 text-centre">
+                    <div>
+                        <h1> About myself</h1>
+                        <hr>Fintech is a portmanteau of financial technology that describes an emerging financial services sector
+                        in the 21st century. Originally, the term applied to technology applied to the back-end of established
+                        consumer and trade financial institutions. Since the end of the first decade of the 21st century,
+                        the term has expanded to include any technological innovation in the financial sector, including
+                        innovations in financial literacy and education, retail banking, investment and even crypto-currencies
+                        like bitcoin.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0 " allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class="container fluid">
+                    <div class="col-md-4">
+                        The term financial technology can apply to any innovation in how people transact business, from the invention of digital
+                        money to double-entry bookkeeping.
+                        <p>Since the internet revolution and the mobile internet revolution, however, financial technology has
+                            grown explosively, and fintech, which originally referred to computer technology applied to the
+                            back office of banks or trading firms, now describes a broad variety of technological interventions
+                            into personal and commercial finance.
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">According to EY's Fintech Adoption Index, one-third of consumers utilize at least two or more fintech
+                        services and those consumers are also increasingly aware of fintech as a part of their daily lives.
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">Check us out &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                                If one word can describe how many fintech innovations have affected traditional trading, banking, financial advice and products,
+                                it's 'disruption,' as financial products and services that were once the
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">Hello =) &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 panel panel-default">
+                    <h3 class="text-centre">Operating hrs</h3>
+
+                    <table class="table">
+                        <thread>
+                            <tr>
+                                <th>day</th>
+                                <th>Hrs</th>
+                            </tr>
+                        </thread>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monday to Thursday
+                                </td>
+                                <td>
+                                    9:00 - 17:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Friday to Saturday
+                                </td>
+                                <td>
+                                    9:00 - 11:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Sunday
+                                </td>
+                                <td>
+                                    closed
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <h3> Check me out</h3>
+                    <br>
+                    <div class="listgroup">
+                        <a href"#" class="list-group-item"><i class="fa fa-envelope" aria-hiden="true"></i>gareth.teo@sc.com</a>
+                        <a href"#" class="list-group-item"><i class="fa fa-phone" aria-hiden="true"></i>999999999</a>
+                        <a href"#" class="list-group-item"><i class="fa fa-meetup" aria-hiden="true"></i>blah meeting</a>
+                    </div>
+                </div>
+            </div>    
+            <hr>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <ul class="List-inline">
+                    <li>
+                            <a href="https://facebook.com"data-toggle="tooltip1" title="Hooray">
+                                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.com"data-toggle="tooltip2" title="Hooray">
+                                <i class="fa fa-google fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                            <a href="#">
+                                
+                            </a>
+                        </li>
+                    <ul>
+                    </div>
+                </div>
+
+
+            
+</body>
+<footer> Copyright &Copy:2018.ComWork pte Ltd</footer>
+</html>
