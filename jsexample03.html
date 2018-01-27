@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<head>
+    <script lang="javascript" type="text/javascript">
+    function autoRefresh(t) {
+        setTimeout("location.reload(true);",t);
+    }   
+    function redirectPage() {
+            window.location="https://yahoo.com";  
+    }
+    </script>
+</head>
+<body onload="javascript: redirectPage()(5000);">
+    <script lang="javascript" type="text/javascript">
+    var employee ={
+        name:"James",
+        email: "james@cook,com",
+        tel:"99991"
+    }
+    var employeelist = [
+        {
+            name:"James",
+            email: "james@cook,com",
+            tel:"99991"
+        },
+        {
+            name:"Mark",
+            email: "Mark@cook,com",
+            tel:"99992"
+        },
+        {    
+            name:"Lee",
+            email: "Lee@cook,com",
+            tel:"99993"
+        }   
+
+    ]
+    document.write("size of employeelist:"+ employeelist.length);
+
+    document.write("<br>");
+    document.write("<table border=2 width=80% align=center>");
+    for(var i = 0; i <employeelist.length; i++){
+        document.write("<tr>");
+            document.write("<td>"+ employeelist[i].name + "</td>");
+            document.write("<td>"+ employeelist[i].email + "</td>");
+            document.write("<td>"+ employeelist[i].tel + "</td>");
+            document.write("</tr>");    
+    }
+    document.write("</table>");
+
+    </script>
+
+    <a href="javascript:location.reload(true)">Refresh Page</a>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!doctype hmtl>
+<html>
+<head>
+
+</head>
+<body>
+    <script lang="javascript" type="text/javascript">
+    
+    /* global and local variable */
+    var data="global";
+
+    function getData(){
+        var data="local";
+
+        alert("data:"+ this.data);
+    }
+    function getData1() {
+        var data="local1";
+    
+        alert("data:"+ data);
+    }    
+
+    // comparators
+    var a = true;
+    var b = true;
+
+    var result1 = (a && b );
+    var result2 = (a || b );
+    var result3 = !(a &&  b );
+    var result4 = !(a || b );
+
+    document.writeln(result1);
+    document.writeln(result2);
+    document.writeln(result3);
+    document.writeln(result4);
+
+
+//*if else condition
+
+var num1 = 7;
+var num2 = 6; 
+    
+// equals comparison
+if (num1 == num2){
+    document.writeln("num1 equal num2<br>");
+    } else {
+        if(num1 < num2){
+            document.writeln("num1 is less than num2<br>");
+        }else if(num1 > num2){
+            document.writeln("num1 is greater than num2<br>");
+        }
+    }
+
+//arrays of strings/ list of string
+var names = ['She','Nat', 'Sha','Joe','Gar','Cyn'];
+
+// arrays of number / list of numbers
+var numbers =[12,24,33,35,37,42];
+
+var names2 =[];
+
+var numbers2 =[];
+
+for(var i=0;i<names.length; i++){
+    document.write(names[i]+"<br>");
+}
+
+for(var i=0;i<numbers.length; i++){
+    document.write(numbers[i]+"<br>");
+}
+var x=0;
+while (x<names.length){
+    document.write(names[x]+"<br>");
+    x++;
+}
+//take everything in names to put in names2
+    for(var i = 0; i <names.length;i++) {
+    names2.push(names[i]);
+    }
+
+for(var i = 0;i<names2.length;i++){
+    document.write(names2[i] + "<br>");
+}
+//switch case statment
+var marks = 80;
+var grade = "";
+
+if (marks<50) {
+    grade = "F";
+} else if ((marks>=50) &&( marks <60)){
+    grade = "D";
+} else if ((marks>=60) &&( marks <70)){
+    grade = "C";
+} else {
+    grade = "B";
+}
+
+switch(grade) { 
+case "A":
+    document.write("Exceptionally Well");
+    break; 
+case "B":
+    document.write("Mod Well");
+    getData();
+    break; 
+case "C":
+    document.write("Average");
+    getData1();
+    break; 
+case "D":
+    document.write("Poor");
+    break;
+default: 
+    document.write("Failed <br>");
+    break;
+}
+    </script>
+
+    <input type="button" value="Show Value" onclick="getData()"/>
+
+</body>
+
+
+</html>
